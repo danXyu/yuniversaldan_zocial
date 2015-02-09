@@ -1,7 +1,7 @@
 # yuniversaldan:zocial
 
 This package bundles the zocial icons (icon service perfect for oauth integration) into a meteor
-package. It uses 
+package. 
 
 ***
 ## Installation
@@ -10,21 +10,18 @@ Run: 'meteor add yuniversaldan:zocial'
 
 ## General Usage
 
-The package revolves around the use of class .zocial in combination with any of the following:
+The package revolves around the use of class .zocial in combination with any of the classes in the following
+list. To use these classes, include them as a part of your HTML element's class in this way, using
+either hyperlinks or buttons.
+
 + .twitter
 + .facebook
 + .google
 + .paypal
 + (and more...)
 
-To use these classes, include them as a part of your HTML element's class in this way, using
-either hyperlinks or buttons.
-
-
 	<button class='zocial facebook'>Button label here</button>
-
 or
-
 	<a class="zocial twitter">Button label</a>
 
 ## Contributions
