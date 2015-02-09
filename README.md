@@ -18,11 +18,14 @@ either hyperlinks or buttons.
 + .facebook
 + .google
 + .paypal
-+ (and more...)
++ and more...
 
 	<button class='zocial facebook'>Button label here</button>
+	
 or
+
 	<a class="zocial twitter">Button label</a>
+
 
 ## Contributions
 
