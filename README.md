@@ -21,15 +21,13 @@ either hyperlinks or buttons.
 + and more...
 
 
-
-
+## How to use these buttons
 
 	<button class='zocial facebook'>Button label here</button>
 
 or
 
 	<a class="zocial twitter">Button label</a>
-
 
 ## Contributions
 
