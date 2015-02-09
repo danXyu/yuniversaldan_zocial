@@ -1,12 +1,13 @@
 # yuniversaldan:zocial
 
-This package bundles the zocial icons (icon service perfect for oauth integration) into a meteor
-package. 
+This package bundles the zocial icons (icon service perfect for oauth integration).
 
 ***
+
 ## Installation
 
 Run: 'meteor add yuniversaldan:zocial'
+
 
 ## General Usage
 
@@ -28,6 +29,7 @@ either hyperlinks or buttons.
 or
 
 	<a class="zocial twitter">Button label</a>
+
 
 ## Contributions
 
