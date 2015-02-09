@@ -20,10 +20,9 @@ The package revolves around the use of class .zocial in combination with any of 
 To use these classes, include them as a part of your HTML element's class in this way, using
 either hyperlinks or buttons.
 
-'''html
-<button class='zocial twitter'>Button Label</button>
-<a class="zocial google">Hyperlink Label</a>
-'''
+  <button class='zocial twitter'>Button Label</button>
+  <a class="zocial google">Hyperlink Label</a>
+
 
 ## Contributions
 
