@@ -21,7 +21,7 @@ either hyperlinks or buttons.
 + and more...
 
 
-## How to use these buttons
+## Code Examples
 
 	<button class='zocial facebook'>Button label here</button>
 
