@@ -1,22 +1,16 @@
+/* Package Description: Contains the bundled lib for zocial icons use in meteor
+ * applications. Pushed to atmosphere, stored on user 'yuniversaldan.'
+  */
 Package.describe({
   name: 'yuniversaldan:zocial',
-  version: '0.0.1',
-  // Brief, one-line summary of the package.
-  summary: '',
-  // URL to the Git repository containing the source code for this package.
-  git: '',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
+  version: '0.1.0',
+  summary: 'Zocial icons, bundled for Meteor',
+  git: 'https://github.com/danXyu/yuniversaldan_zocial.git',
   documentation: 'README.md'
 });
 
-Package.onUse(function(api) {
+/* Simply add the social.css file to the client's dependencies. */
+Package.onUse(function (api) {
   api.versionsFrom('1.0.3.1');
-  api.addFiles('yuniversaldan:zocial.js');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('yuniversaldan:zocial');
-  api.addFiles('yuniversaldan:zocial-tests.js');
+  api.addFiles(['lib/css-social-buttons/css/zocial.css'], ['client']);
 });
