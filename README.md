@@ -1,12 +1,16 @@
 # yuniversaldan:zocial
 
-This package bundles the zocial icons (icon service perfect for oauth integration).
+This package bundles the zocial icons (icon service perfect for oauth integration). These zocial icons focus on
+web application's need to allow users to sign in using oauth into services such as facebook, twitter, google plus,
+github, and more. 
 
 ***
 
 ## Installation
 
-Run: 'meteor add yuniversaldan:zocial'
+To get started, simply run
+
+    meteor add yuniversaldan:zocial
 
 
 ## General Usage
@@ -28,7 +32,7 @@ either hyperlinks or buttons.
 
 or
 
-	<a class="zocial twitter">Button label</a>
+    <a class="zocial twitter">Button label</a>
 
 
 ## Contributions
