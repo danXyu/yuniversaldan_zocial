@@ -1,8 +1,7 @@
 # yuniversaldan:zocial
 
 This package bundles the zocial icons (icon service perfect for oauth integration). These zocial icons focus on
-web application's need to allow users to sign in using oauth into services such as facebook, twitter, google plus,
-github, and more. 
+web application's need to allow users to sign in using oauth into services such as facebook, twitter, and more. 
 
 ***
 
@@ -28,10 +27,7 @@ either hyperlinks or buttons.
 
 ## Code Examples
 
-	<button class='zocial facebook'>Button label here</button>
-
-or
-
+    <button class='zocial facebook'>Button label here</button>
     <a class="zocial twitter">Button label</a>
 
 
